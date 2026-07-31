@@ -69,6 +69,13 @@ def main() -> int:
         previous = {item["machine_name"]: item for item in payload.get("skills", [])}
     discovered: dict[str, dict] = {}
     workspace = Path(__file__).parents[2]
+    department_versions: dict[str, str] = {}
+    for department, spec in DEPARTMENTS.items():
+        version_path = workspace / spec["repo"].split("/", 1)[1] / "VERSION"
+        if version_path.is_file():
+            version = version_path.read_text(encoding="utf-8").strip()
+            if re.fullmatch(r"\d+\.\d+\.\d+", version):
+                department_versions[department] = version
     roots = [
         Path.home() / ".agents/skills",
         Path.home() / ".codex/skills",
@@ -98,7 +105,10 @@ def main() -> int:
             "department": department,
             "role": role,
             "github_repository": spec["repo"] if managed and spec else existing.get("github_repository"),
-            "install_version": "1.0.0" if managed and spec else existing.get("install_version"),
+            "install_version": (
+                department_versions.get(department, existing.get("install_version"))
+                if managed and spec else existing.get("install_version")
+            ),
             "license": "MIT" if managed and spec else existing.get("license", "unknown"),
             "legacy_compatibility": (
                 {"status": "preserved", "department_entry": spec["entry"]}

@@ -24,51 +24,12 @@
   ],
   "skills": [
     {
-      "machine_name": "&",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "@泛函",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "Codex",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
       "machine_name": "Codex 对话记录找回@泛函",
       "source": {
         "local_paths": [
           "/Users/fanhan/.agents/skills/Codex 对话记录找回@泛函"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -83,19 +44,6 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/claude-api"
         ],
-        "cloud_installed": false
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "Skill",
-      "source": {
-        "local_paths": [],
         "cloud_installed": true
       },
       "department": null,
@@ -209,19 +157,6 @@
       "legacy_compatibility": null
     },
     {
-      "machine_name": "baoyu-url-to-markdown",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
       "machine_name": "beautiful-feishu-whiteboard",
       "source": {
         "local_paths": [
@@ -242,7 +177,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/多维表格搭建咨询@泛函"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -385,19 +320,6 @@
       "legacy_compatibility": null
     },
     {
-      "machine_name": "claude-api",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
       "machine_name": "codebase-to-course",
       "source": {
         "local_paths": [
@@ -439,7 +361,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/咨询信息沟通模板@泛函"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -469,7 +391,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/内容风格提取"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": "social-media-operations",
       "role": "旧入口",
@@ -655,7 +577,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/课程海报设计方案"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": "course-production",
       "role": "部门专家",
@@ -726,6 +648,19 @@
     },
     {
       "machine_name": "daily-mail-ingestion",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "共享工具",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_compatibility": null
+    },
+    {
+      "machine_name": "darwin-skill",
       "source": {
         "local_paths": [],
         "cloud_installed": true
@@ -1129,7 +1064,7 @@
         "local_paths": [
           "/Users/fanhan/.codex/skills/taste-skill"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -1235,7 +1170,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/泛函公众号写作"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": "social-media-operations",
       "role": "旧入口",
@@ -1286,7 +1221,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/飞书跨租户迁移文档@泛函"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -1436,19 +1371,6 @@
         "local_paths": [
           "/Users/fanhan/.codex/skills/frontend-slides_fanhan"
         ],
-        "cloud_installed": false
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "frontend-slides_fanhan",
-      "source": {
-        "local_paths": [],
         "cloud_installed": true
       },
       "department": null,
@@ -1469,7 +1391,7 @@
       "department": "full-stack-development",
       "role": "部门入口",
       "github_repository": "Ivor-NCUT/full-stack-development-workflow",
-      "install_version": "1.0.0",
+      "install_version": "2.0.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -1479,19 +1401,6 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/ganjue-ni-shi-koubo"
         ],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "getnote",
-      "source": {
-        "local_paths": [],
         "cloud_installed": true
       },
       "department": null,
@@ -1603,7 +1512,7 @@
         "local_paths": [
           "/Users/fanhan/.codex/skills/启发式访谈口播粗剪@泛函"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -1752,7 +1661,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/纪楠楠内容风格创作@泛函"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": "social-media-operations",
       "role": "旧入口",
@@ -1785,7 +1694,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/职位 & 简历智能匹配"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -2432,7 +2341,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/个人方法论体系蒸馏成 Skill @泛函"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -2507,7 +2416,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/招聘广告手写风封面生成@泛函"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -2552,7 +2461,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/skill-使用教程"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -2722,19 +2631,6 @@
       "legacy_compatibility": null
     },
     {
-      "machine_name": "skill-使用教程",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
       "machine_name": "skill-迭代工作流",
       "source": {
         "local_paths": [
@@ -2778,7 +2674,22 @@
       "department": "social-media-operations",
       "role": "部门入口",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
+      "license": "MIT",
+      "legacy_compatibility": null
+    },
+    {
+      "machine_name": "social-media-creator-workflow-account-audit",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-account-audit"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "部门专家",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2793,7 +2704,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2808,7 +2719,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2823,7 +2734,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2838,7 +2749,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2853,7 +2764,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2868,7 +2779,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2883,7 +2794,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2898,7 +2809,22 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
+      "license": "MIT",
+      "legacy_compatibility": null
+    },
+    {
+      "machine_name": "social-media-creator-workflow-positioning",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-positioning"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "部门专家",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2913,7 +2839,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2928,7 +2854,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2943,7 +2869,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2958,7 +2884,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2973,7 +2899,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2988,7 +2914,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -3003,7 +2929,22 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
+      "license": "MIT",
+      "legacy_compatibility": null
+    },
+    {
+      "machine_name": "social-media-creator-workflow-xhs-carousel",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-xhs-carousel"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "部门专家",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -3018,7 +2959,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -3033,7 +2974,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.0.0",
+      "install_version": "1.2.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -3054,19 +2995,6 @@
         "status": "preserved",
         "department_entry": "social-media-creator-workflow"
       }
-    },
-    {
-      "machine_name": "taste-skill",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
     },
     {
       "machine_name": "template-skill",
@@ -3104,7 +3032,7 @@
         "local_paths": [
           "/Users/fanhan/.agents/skills/选题调研@方比比"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -3223,25 +3151,12 @@
       "legacy_compatibility": null
     },
     {
-      "machine_name": "wechat-article-to-markdown-20260721T150000Z",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
       "machine_name": "xhs-recruitment-fangbibi",
       "source": {
         "local_paths": [
           "/Users/fanhan/.agents/skills/招聘类小红书笔记@方比比"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": "social-media-operations",
       "role": "旧入口",
@@ -3764,17 +3679,20 @@
       "legacy_compatibility": null
     },
     {
-      "machine_name": "个人方法论体系蒸馏成",
+      "machine_name": "公众号文章转Markdown",
       "source": {
         "local_paths": [],
         "cloud_installed": true
       },
-      "department": null,
-      "role": "共享工具",
+      "department": "social-media-operations",
+      "role": "旧入口",
       "github_repository": null,
       "install_version": null,
       "license": "unknown",
-      "legacy_compatibility": null
+      "legacy_compatibility": {
+        "status": "preserved",
+        "department_entry": "social-media-creator-workflow"
+      }
     },
     {
       "machine_name": "内容审美对齐@泛函",
@@ -3808,19 +3726,6 @@
       "legacy_compatibility": null
     },
     {
-      "machine_name": "内容风格提取",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
       "machine_name": "口播视频粗剪@方比比",
       "source": {
         "local_paths": [
@@ -3839,35 +3744,6 @@
       }
     },
     {
-      "machine_name": "启发式访谈口播粗剪@泛函",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": "social-media-operations",
-      "role": "旧入口",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": {
-        "status": "preserved",
-        "department_entry": "social-media-creator-workflow"
-      }
-    },
-    {
-      "machine_name": "咨询信息沟通模板@泛函",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
       "machine_name": "培训讲解课程稿整理@方比比",
       "source": {
         "local_paths": [
@@ -3884,32 +3760,6 @@
         "status": "preserved",
         "department_entry": "course-producer"
       }
-    },
-    {
-      "machine_name": "多维表格搭建咨询@泛函",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "对话记录找回@泛函",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
     },
     {
       "machine_name": "小红书招聘广告@泛函",
@@ -3935,7 +3785,7 @@
         "local_paths": [
           "/Users/fanhan/.codex/skills/getnote"
         ],
-        "cloud_installed": false
+        "cloud_installed": true
       },
       "department": null,
       "role": "共享工具",
@@ -3945,59 +3795,11 @@
       "legacy_compatibility": null
     },
     {
-      "machine_name": "招聘广告手写风封面生成@泛函",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": "social-media-operations",
-      "role": "旧入口",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": {
-        "status": "preserved",
-        "department_entry": "social-media-creator-workflow"
-      }
-    },
-    {
-      "machine_name": "招聘类小红书笔记@方比比",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": "social-media-operations",
-      "role": "旧入口",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": {
-        "status": "preserved",
-        "department_entry": "social-media-creator-workflow"
-      }
-    },
-    {
       "machine_name": "方比比视频号标题方法论",
       "source": {
         "local_paths": [
           "/Users/fanhan/.agents/skills/方比比视频号标题方法论"
         ],
-        "cloud_installed": true
-      },
-      "department": "social-media-operations",
-      "role": "旧入口",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": {
-        "status": "preserved",
-        "department_entry": "social-media-creator-workflow"
-      }
-    },
-    {
-      "machine_name": "泛函公众号写作",
-      "source": {
-        "local_paths": [],
         "cloud_installed": true
       },
       "department": "social-media-operations",
@@ -4077,50 +3879,11 @@
       }
     },
     {
-      "machine_name": "简历智能匹配",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "纪楠楠内容风格创作@泛函",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
       "machine_name": "网页转Markdown",
       "source": {
         "local_paths": [
           "/Users/fanhan/.codex/skills/baoyu-url-to-markdown"
         ],
-        "cloud_installed": false
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "职位",
-      "source": {
-        "local_paths": [],
         "cloud_installed": true
       },
       "department": null,
@@ -4182,28 +3945,12 @@
       "legacy_compatibility": null
     },
     {
-      "machine_name": "课程海报设计方案",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": "course-production",
-      "role": "旧入口",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": {
-        "status": "preserved",
-        "department_entry": "course-producer"
-      }
-    },
-    {
       "machine_name": "达尔文skill",
       "source": {
         "local_paths": [
           "/Users/fanhan/.codex/skills/达尔文skill"
         ],
-        "cloud_installed": true
+        "cloud_installed": false
       },
       "department": "skill-evolution",
       "role": "旧入口",
@@ -4214,32 +3961,6 @@
         "status": "preserved",
         "department_entry": "agent-skill-evolution-workflow"
       }
-    },
-    {
-      "machine_name": "选题调研@方比比",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "飞书跨租户迁移文档@泛函",
-      "source": {
-        "local_paths": [],
-        "cloud_installed": true
-      },
-      "department": null,
-      "role": "共享工具",
-      "github_repository": null,
-      "install_version": null,
-      "license": "unknown",
-      "legacy_compatibility": null
     }
   ]
 }
