@@ -47,15 +47,15 @@ def skill_name(path: Path) -> str:
 def classify(name: str) -> tuple[str | None, str]:
     for department, spec in DEPARTMENTS.items():
         if name == spec["entry"]:
-            return department, "department-entry"
+            return department, "部门入口"
         if any(name.startswith(prefix) for prefix in spec["prefixes"]):
-            return department, "department-expert"
+            return department, "部门专家"
     if name in {"agent-reach", "ponytail", "moe-skill-creator"}:
-        return None, "external-dependency"
+        return None, "外部依赖"
     for department, pattern in LEGACY_PATTERNS.items():
         if pattern.search(name.lower()):
-            return department, "legacy-entry"
-    return None, "shared-tool"
+            return department, "旧入口"
+    return None, "共享工具"
 
 
 def main() -> int:
@@ -86,15 +86,19 @@ def main() -> int:
     for name, found in sorted(discovered.items()):
         department, role = classify(name)
         spec = DEPARTMENTS.get(department)
+        managed = role in {"部门入口", "部门专家"}
         skills.append({
             "machine_name": name,
             "source": {"local_paths": sorted(set(found["local_paths"])), "cloud_installed": found["cloud"]},
             "department": department,
             "role": role,
-            "github_repository": spec["repo"] if role in {"department-entry", "department-expert"} and spec else None,
-            "install_version": "1.0.0" if role in {"department-entry", "department-expert"} and spec else None,
-            "license": "MIT" if role in {"department-entry", "department-expert"} and spec else "unknown",
-            "legacy_aliases": [],
+            "github_repository": spec["repo"] if managed and spec else None,
+            "install_version": "1.0.0" if managed and spec else None,
+            "license": "MIT" if managed and spec else "unknown",
+            "legacy_compatibility": (
+                {"status": "preserved", "department_entry": spec["entry"]}
+                if role == "旧入口" and spec else None
+            ),
         })
     payload = {
         "schema_version": 1,

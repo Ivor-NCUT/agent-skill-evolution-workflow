@@ -21,11 +21,13 @@ class RepositoryTest(unittest.TestCase):
 
     def test_registry_roles_and_departments(self) -> None:
         registry = json.loads((ROOT / "company-skills.json").read_text(encoding="utf-8"))
-        valid_roles = {"department-entry", "department-expert", "shared-tool", "external-dependency", "legacy-entry"}
+        valid_roles = {"部门入口", "部门专家", "共享工具", "外部依赖", "旧入口"}
         valid_departments = {"full-stack-development", "social-media-operations", "course-production", "skill-evolution", None}
         for item in registry["skills"]:
             self.assertIn(item["role"], valid_roles)
             self.assertIn(item["department"], valid_departments)
+            if item["role"] == "旧入口":
+                self.assertEqual(item["legacy_compatibility"]["status"], "preserved")
         self.assertEqual(len(registry["skills"]), len({item["machine_name"] for item in registry["skills"]}))
 
 
