@@ -2,8 +2,9 @@
 import { existsSync, lstatSync, mkdirSync, readdirSync, readlinkSync, symlinkSync, unlinkSync } from "node:fs";
 import { homedir } from "node:os";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const target = path.resolve(process.env.SKILLS_HOME || path.join(process.env.CODEX_HOME || path.join(homedir(), ".codex"), "skills"));
 const forceLinks = process.argv.includes("--force-links");
 mkdirSync(target, { recursive: true });
