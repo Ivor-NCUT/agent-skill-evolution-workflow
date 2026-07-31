@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill 冲突审计"
+  short_description: "识别触发重叠、规则冲突、重复知识和不清楚的路由优先级"
+  default_prompt: "使用 $skill-evolution-conflict-auditor 审计这些 Skill 的冲突。"

@@ -1,0 +1,3 @@
+{"id":"moe-skill-creator","title":"Ivor-NCUT/moe-skill-creator","type":"user-owned-tool","license":"reference-only-until-declared","allowed_use":"Use installed tooling and architecture; do not copy repository content into public releases."}
+{"id":"darwin-skill","title":"alchaincyf/darwin-skill","type":"open-source-skill","license":"MIT","allowed_use":"Invoke installed Skill; preserve attribution and contribute reusable changes upstream."}
+{"id":"skill-creator","title":"OpenAI Skill Creator","type":"installed-system-skill","license":"external","allowed_use":"Invoke installed initializer and validators; do not vendor."}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill 项目构建"
+  short_description: "选择单 Skill 或 MOE 架构并按 Issue 构建最小可用项目"
+  default_prompt: "使用 $skill-evolution-project-builder 创建这个 Skill 项目。"

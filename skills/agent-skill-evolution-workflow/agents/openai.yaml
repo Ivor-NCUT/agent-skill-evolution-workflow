@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill 迭代与进化"
+  short_description: "路由公司 Skill 的归类、冲突审计、创建、进化、交付与开源维护"
+  default_prompt: "使用 $agent-skill-evolution-workflow 处理这项 Skill 生命周期任务。"

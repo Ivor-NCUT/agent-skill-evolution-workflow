@@ -1,0 +1,15 @@
+{
+  "project_name": "agent-skill-evolution-workflow",
+  "display_name": "Skill 迭代与进化",
+  "version": "1.0.0",
+  "license": "MIT",
+  "entry_skill": "agent-skill-evolution-workflow",
+  "experts": [
+    {"id":"intake-classifier","skill":"skill-evolution-intake-classifier","triggers":["创建 Skill","Skill 归类","能力沉淀"]},
+    {"id":"conflict-auditor","skill":"skill-evolution-conflict-auditor","triggers":["Skill 冲突","触发重叠","路由冲突"]},
+    {"id":"project-builder","skill":"skill-evolution-project-builder","triggers":["构建 Skill","MOE Skill","重构 Skill"]},
+    {"id":"darwin-runner","skill":"skill-evolution-darwin-runner","triggers":["迭代 Skill","更新到 Skill","达尔文"]},
+    {"id":"validation-delivery","skill":"skill-evolution-validation-delivery","triggers":["验证 Skill","同步 Skill","交付 Skill"]},
+    {"id":"open-source-upstream","skill":"skill-evolution-open-source-upstream","triggers":["开源 Skill","上游 PR","许可证"]}
+  ]
+}

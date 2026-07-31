@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill 达尔文进化"
+  short_description: "把真实使用反馈转成可回滚、可验证的 Skill 改进实验"
+  default_prompt: "使用 $skill-evolution-darwin-runner 根据反馈进化这个 Skill。"

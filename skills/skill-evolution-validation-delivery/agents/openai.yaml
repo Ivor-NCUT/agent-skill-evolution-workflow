@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill 验证交付"
+  short_description: "验证 Skill、同步安装版本并按明确要求完成打包和教程交付"
+  default_prompt: "使用 $skill-evolution-validation-delivery 验证并交付这个 Skill。"

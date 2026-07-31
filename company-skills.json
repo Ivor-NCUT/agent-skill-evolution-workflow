@@ -1,0 +1,4122 @@
+{
+  "schema_version": 1,
+  "departments": [
+    {
+      "id": "full-stack-development",
+      "entry_skill": "full-stack-development-workflow",
+      "github_repository": "Ivor-NCUT/full-stack-development-workflow"
+    },
+    {
+      "id": "social-media-operations",
+      "entry_skill": "social-media-creator-workflow",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow"
+    },
+    {
+      "id": "course-production",
+      "entry_skill": "course-producer",
+      "github_repository": "Ivor-NCUT/course-producer"
+    },
+    {
+      "id": "skill-evolution",
+      "entry_skill": "agent-skill-evolution-workflow",
+      "github_repository": "Ivor-NCUT/agent-skill-evolution-workflow"
+    }
+  ],
+  "skills": [
+    {
+      "machine_name": "Codex 对话记录找回@泛函",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/Codex 对话记录找回@泛函"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "Codex-api",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/claude-api"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "agent-reach",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/agent-reach"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "external-dependency",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "agent-skill-evolution-workflow",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/agent-skill-evolution-workflow/skills/agent-skill-evolution-workflow"
+        ],
+        "cloud_installed": false
+      },
+      "department": "skill-evolution",
+      "role": "department-entry",
+      "github_repository": "Ivor-NCUT/agent-skill-evolution-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "agently-mail",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/agently-mail"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "ai-career-consultant-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/ai-career-consultant-fanhan"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "algorithmic-art",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/algorithmic-art"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "alltuu-album-downloader",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/alltuu-album-downloader"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "approved-draft-delivery",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "baoyu-url-to-markdown",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "beautiful-feishu-whiteboard",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/beautiful-feishu-whiteboard"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "bitable-architecture-consultant-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/多维表格搭建咨询@泛函"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "bonjour-full-stack-employee",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/bonjour-full-stack-employee"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "brainstorming",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/brainstorming"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "brand-guidelines",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/brand-guidelines"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "candidate-location-filter",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/candidate-location-filter"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "candidate-mail-ingestion",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "candidate-recommendation-delivery",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/candidate-recommendation-delivery"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "canvas-design",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/canvas-design"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "castopod-podcast-publisher",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/castopod-podcast-publisher"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "claude",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/claude"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "claude-api",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "codebase-to-course",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/codebase-to-course"
+        ],
+        "cloud_installed": true
+      },
+      "department": "course-production",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "codex-dev-good-taste",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/codex-dev-good-taste"
+        ],
+        "cloud_installed": true
+      },
+      "department": "full-stack-development",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "consulting-intake-template-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/咨询信息沟通模板@泛函"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "consulting-record-organizer-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/consulting-record-organizer-fanhan"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "content-style-extraction",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/内容风格提取"
+        ],
+        "cloud_installed": false
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "conversion-funnel-copywriting-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/conversion-funnel-copywriting-fanhan"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-aesthetic-alignment",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-aesthetic-alignment"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-editor-in-chief-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/course-editor-in-chief-fanhan"
+        ],
+        "cloud_installed": true
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-interview-design",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-interview-design"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-knowledge-extraction",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-knowledge-extraction"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-lark-delivery",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-lark-delivery"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-lesson-writing",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-lesson-writing"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-material-intake",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-material-intake"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-outline-design",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-outline-design"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-pilot-iteration",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-pilot-iteration"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-positioning",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-positioning"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-poster-design-plan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/课程海报设计方案"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-poster-planning",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-poster-planning"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-producer",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-producer"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-entry",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "course-quality-editor",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/course-producer/skills/course-quality-editor"
+        ],
+        "cloud_installed": false
+      },
+      "department": "course-production",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/course-producer",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "cubox",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/cubox"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "daily-mail-ingestion",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-action",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-action",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-action"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-agent-migration",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-agent-migration",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-agent-migration"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-ai-check",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-ai-check",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-ai-check"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-benchmark",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-benchmark",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-benchmark"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-chatroom",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-chatroom",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-chatroom"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-chatroom-austrian",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-chatroom-austrian",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-chatroom-austrian"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-content",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-content",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-content"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-content-system",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-content-system"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-decision",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-decision"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-deconstruct",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-deconstruct",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-deconstruct"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-diagnosis",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-diagnosis",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-diagnosis"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-goal",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-goal",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-goal"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-good-question",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-good-question"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-hook",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-hook",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-hook"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-learning",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-learning"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-logic-continuity",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-logic-continuity"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-report",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-report",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-report"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-restore",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-restore",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-restore"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-save",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-save",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-save"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-slowisfast",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-slowisfast",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-slowisfast"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dbs-xhs-title",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dbs-xhs-title",
+          "/Users/fanhan/.agents/skills/dbskill/skills/dbs-xhs-title"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "deploy-codex-api-zeabur",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/deploy-codex-zeabur/subskills/deploy-codex-api-zeabur"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "deploy-codex-zeabur",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/deploy-codex-zeabur"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "design-taste-frontend",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/taste-skill"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "doc-coauthoring",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/doc-coauthoring"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "docx",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/docx"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dumbledore",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/dumbledore",
+          "/Users/fanhan/.codex/skills/dumbledore"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "dumbledore-onboarding",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/dumbledore-onboarding"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "fanhan-coo-project-manager",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/fanhan-coo-project-manager"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "fanhan-design-style",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/fanhan-design-style"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "fanhan-gongzhonghao-writing",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/泛函公众号写作"
+        ],
+        "cloud_installed": false
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "fanhan-style-writing",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/fanhan-style-writing"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "feishu-base-data-agent",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/feishu-base-data-agent"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "feishu-cross-tenant-migration-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/飞书跨租户迁移文档@泛函"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "figma",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/figma"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "figma-code-connect-components",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/figma-code-connect-components"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "figma-create-design-system-rules",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/figma-create-design-system-rules"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "figma-create-new-file",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/figma-create-new-file"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "figma-generate-design",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/figma-generate-design"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "figma-generate-library",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/figma-generate-library"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "figma-implement-design",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/figma-implement-design"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "figma-use",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/figma-use"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "find-skills",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/find-skills"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "frontend-slides",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/frontend-slides_fanhan"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "frontend-slides_fanhan",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "full-stack-debugging",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-debugging"
+        ],
+        "cloud_installed": false
+      },
+      "department": "full-stack-development",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "full-stack-deployment",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-deployment"
+        ],
+        "cloud_installed": false
+      },
+      "department": "full-stack-development",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "full-stack-development-workflow",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-development-workflow"
+        ],
+        "cloud_installed": false
+      },
+      "department": "full-stack-development",
+      "role": "department-entry",
+      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "full-stack-implementation",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-implementation"
+        ],
+        "cloud_installed": false
+      },
+      "department": "full-stack-development",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "full-stack-quality-review",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-quality-review"
+        ],
+        "cloud_installed": false
+      },
+      "department": "full-stack-development",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "full-stack-requirements",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-requirements"
+        ],
+        "cloud_installed": false
+      },
+      "department": "full-stack-development",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "ganjue-ni-shi-koubo",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/ganjue-ni-shi-koubo"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "getnote",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "gh-address-comments",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/gh-address-comments"
+        ],
+        "cloud_installed": true
+      },
+      "department": "full-stack-development",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "gh-fix-ci",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/gh-fix-ci"
+        ],
+        "cloud_installed": true
+      },
+      "department": "full-stack-development",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "gh-skill-publisher",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/gh-skill-publisher"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "go-wild-camping-style",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/go-wild-camping-style"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "guizang-ppt-skill",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/guizang-ppt-skill"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "hermes-agent",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/hermes-agent"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "heuristic-interview-rough-cut-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/启发式访谈口播粗剪@泛函"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "imagegen",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/.system/imagegen"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "ingest-job-description",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "insforge",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/insforge"
+        ],
+        "cloud_installed": true
+      },
+      "department": "full-stack-development",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "insforge-cli",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/insforge-cli"
+        ],
+        "cloud_installed": true
+      },
+      "department": "full-stack-development",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "insforge-debug",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/insforge-debug"
+        ],
+        "cloud_installed": true
+      },
+      "department": "full-stack-development",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "insforge-integrations",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/insforge-integrations"
+        ],
+        "cloud_installed": true
+      },
+      "department": "full-stack-development",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "internal-comms",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/internal-comms"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "interview-led-writing",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/interview-led-writing",
+          "/Users/fanhan/.agents/skills/interview-led-writing/interview-led-writing"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "jinannan-content-style-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/纪楠楠内容风格创作@泛函"
+        ],
+        "cloud_installed": false
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "job-post-to-opportunity-brief",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/job-post-to-opportunity-brief"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "job-resume-intelligent-matching-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/职位 & 简历智能匹配"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "kimi-code",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/kimi-code"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-approval",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-approval"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-apps",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-apps"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-attendance",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-attendance"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-base",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-base"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-calendar",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-calendar"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-contact",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-contact"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-course-xiezuo",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-course-xiezuo"
+        ],
+        "cloud_installed": true
+      },
+      "department": "course-production",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-doc",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-doc"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-drive",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-drive"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-event",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-event"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-im",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-im"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-knowledge-base-builder",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-knowledge-base-builder"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-mail",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-mail"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-markdown",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-markdown"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-minutes",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-minutes"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-minutes-codex-memory",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-minutes-codex-memory"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-note",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-note"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-okr",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-okr"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-openapi-explorer",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-openapi-explorer"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-shared",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-shared"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-sheets",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-sheets"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-skill-maker",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-skill-maker"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-slides",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-slides"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-task",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-task"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-vc",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-vc"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-vc-agent",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-vc-agent"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-whiteboard",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-whiteboard"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-wiki",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-wiki"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-workflow-meeting-summary",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-workflow-meeting-summary"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "lark-workflow-standup-report",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/lark-workflow-standup-report"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "liang-kaopu-sales-diagnostic-report",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/liang-kaopu-sales-diagnostic-report"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "mailbox-candidate-shortlist",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/mailbox-candidate-shortlist"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "mcp-builder",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/mcp-builder"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "moe-skill-creator",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "external-dependency",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "multi-agent-github-workflow",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/multi-agent-github-workflow"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "natural-flow-director-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/natural-flow-director-fanhan",
+          "/Users/fanhan/.codex/skills/natural-flow-director-fanhan"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "offline-speech-transcript-editor-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/offline-speech-transcript-editor-fanhan"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "openai-docs",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/.system/openai-docs"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "opportunity-recommendation-workflow",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/opportunity-recommendation-workflow"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "pdf",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/pdf"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "personal-ip-positioning-consultant-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/personal-ip-positioning-consultant-fanhan"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "personal-methodology-to-skill-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/个人方法论体系蒸馏成 Skill @泛函"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "plugin-creator",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/.system/plugin-creator"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "podcast-clip-director-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/podcast-clip-director-fanhan"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "pptx",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/pptx"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "recruiting-database-crud",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/recruiting-database-crud"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "recruiting-handwritten-cover-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/招聘广告手写风封面生成@泛函"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "review-agent",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/.system/review-agent"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "service-pricing-guide-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/service-pricing-guide-fanhan"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill 使用教程",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/skill-使用教程"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-creator",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/skill-creator",
+          "/Users/fanhan/.codex/skills/.system/skill-creator"
+        ],
+        "cloud_installed": true
+      },
+      "department": "skill-evolution",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-delivery-workflow",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/skill-delivery-workflow"
+        ],
+        "cloud_installed": true
+      },
+      "department": "skill-evolution",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-evolution-conflict-auditor",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/agent-skill-evolution-workflow/skills/skill-evolution-conflict-auditor"
+        ],
+        "cloud_installed": false
+      },
+      "department": "skill-evolution",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/agent-skill-evolution-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-evolution-darwin-runner",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/agent-skill-evolution-workflow/skills/skill-evolution-darwin-runner"
+        ],
+        "cloud_installed": false
+      },
+      "department": "skill-evolution",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/agent-skill-evolution-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-evolution-intake-classifier",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/agent-skill-evolution-workflow/skills/skill-evolution-intake-classifier"
+        ],
+        "cloud_installed": false
+      },
+      "department": "skill-evolution",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/agent-skill-evolution-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-evolution-open-source-upstream",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/agent-skill-evolution-workflow/skills/skill-evolution-open-source-upstream"
+        ],
+        "cloud_installed": false
+      },
+      "department": "skill-evolution",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/agent-skill-evolution-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-evolution-project-builder",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/agent-skill-evolution-workflow/skills/skill-evolution-project-builder"
+        ],
+        "cloud_installed": false
+      },
+      "department": "skill-evolution",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/agent-skill-evolution-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-evolution-validation-delivery",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/agent-skill-evolution-workflow/skills/skill-evolution-validation-delivery"
+        ],
+        "cloud_installed": false
+      },
+      "department": "skill-evolution",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/agent-skill-evolution-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-github-publisher",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/skill-github-publisher"
+        ],
+        "cloud_installed": true
+      },
+      "department": "skill-evolution",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-installer",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/.system/skill-installer"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-使用教程",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "skill-迭代工作流",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/skill-迭代工作流"
+        ],
+        "cloud_installed": true
+      },
+      "department": "skill-evolution",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "slack-gif-creator",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/slack-gif-creator"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-entry",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-asset-distiller",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-asset-distiller"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-content-reviewer",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-content-reviewer"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-content-writer",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-content-writer"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-data-organizer",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-data-organizer"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-fine-cut-planner",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-fine-cut-planner"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-multiplatform-distributor",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-multiplatform-distributor"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-open-source-launch",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-open-source-launch"
+        ],
+        "cloud_installed": false
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-outline-builder",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-outline-builder"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-reach-research",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-reach-research"
+        ],
+        "cloud_installed": false
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-recruitment-human-ad",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-recruitment-human-ad"
+        ],
+        "cloud_installed": false
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-rough-cut-planner",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-rough-cut-planner"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-scene-designer",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-scene-designer"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-shooting-director",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-shooting-director"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-strategy-reviewer",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-strategy-reviewer"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-topic-selector",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-topic-selector"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-xhs-cover",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-xhs-cover"
+        ],
+        "cloud_installed": false
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "social-media-creator-workflow-xhs-human-ad",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-xhs-human-ad"
+        ],
+        "cloud_installed": false
+      },
+      "department": "social-media-operations",
+      "role": "department-expert",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.0.0",
+      "license": "MIT",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "suxia-content-style",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/suxia-content-style"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "taste-skill",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "template-skill",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/template-skill"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "theme-factory",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/theme-factory"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "topic-research-fangbibi",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/选题调研@方比比"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "twitter-ghostwriter",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/twitter-ghostwriter"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "vercel-deploy",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/vercel-deploy"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "vercel-react-best-practices",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/vercel-react-best-practices"
+        ],
+        "cloud_installed": true
+      },
+      "department": "full-stack-development",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "web-access",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "web-artifacts-builder",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/web-artifacts-builder"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "webapp-testing",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/webapp-testing"
+        ],
+        "cloud_installed": true
+      },
+      "department": "full-stack-development",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "wechat-article-to-markdown",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/wechat-article-to-markdown"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "wechat-article-to-markdown-20260721T150000Z",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "xhs-recruitment-fangbibi",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/招聘类小红书笔记@方比比"
+        ],
+        "cloud_installed": false
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "xlsx",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/xlsx"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "yeager-faction-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/耶格尔派@泛函"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-ai-hub",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-ai-hub"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-auth",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-auth"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-database",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-database"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-deploy",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-deploy"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-deployment-logs",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-deployment-logs"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-dockerfile",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-dockerfile"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-domain-dns",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-domain-dns"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-domain-register",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-domain-register"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-domain-url",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-domain-url"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-email",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-email"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-file",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-file"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-migration",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-migration"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-object-storage",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-object-storage"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-port-mismatch",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-port-mismatch"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-project-create",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-project-create"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-project-delete",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-project-delete"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-restart",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-restart"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-server-catalog",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-server-catalog"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-server-list",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-server-list"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-server-rent",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-server-rent"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-server-ssh",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-server-ssh"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-service-delete",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-service-delete"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-service-exec",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-service-exec"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-service-list",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-service-list"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-service-metric",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-service-metric"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-startup-order",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-startup-order"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-template",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-template"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-template-backup",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-template-backup"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-template-deploy",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-template-deploy"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-template-publish",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-template-publish"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-update-service",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-update-service"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "zeabur-variables",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/zeabur-variables"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "个人方法论体系蒸馏成 Skill @泛函",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "内容审美对齐@泛函",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/内容审美对齐@泛函",
+          "/Users/fanhan/.agents/skills/短剧风格标题生成@泛函/subskills/内容审美对齐@泛函"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "内容风格守门",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/内容风格守门"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "内容风格提取",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "口播视频粗剪@方比比",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/口播视频粗剪@方比比"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "启发式访谈口播粗剪@泛函",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "咨询信息沟通模板@泛函",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "培训讲解课程稿整理@方比比",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/培训讲解课程稿整理@方比比"
+        ],
+        "cloud_installed": true
+      },
+      "department": "course-production",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "多维表格搭建咨询@泛函",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "小红书招聘广告@泛函",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/小红书招聘广告@泛函"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "得到大脑（Get笔记）",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/getnote"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "招聘广告手写风封面生成@泛函",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "招聘类小红书笔记@方比比",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "方比比视频号标题方法论",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/方比比视频号标题方法论"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "泛函公众号写作",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "活人感招聘广告@泛函",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/活人感招聘广告@泛函"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "理白风格内容创作",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/理白风格内容创作"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "直播带货话术拆解@方比比",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/直播带货话术拆解@方比比"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "短剧风格标题生成@泛函",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/短剧风格标题生成@泛函"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "纪楠楠内容风格创作@泛函",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "网页转Markdown",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/baoyu-url-to-markdown"
+        ],
+        "cloud_installed": false
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "职位 & 简历智能匹配",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "视频号数据分析@方比比",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/视频号数据分析@方比比"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "视频号数据导入多维表格@泛函",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/视频号数据导入多维表格@泛函"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "视频文件提取文本",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/视频文件提取文本"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "课程海报设计方案",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": "course-production",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "达尔文skill",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/达尔文skill"
+        ],
+        "cloud_installed": true
+      },
+      "department": "skill-evolution",
+      "role": "legacy-entry",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "选题调研@方比比",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    },
+    {
+      "machine_name": "飞书跨租户迁移文档@泛函",
+      "source": {
+        "local_paths": [],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "shared-tool",
+      "github_repository": null,
+      "install_version": null,
+      "license": "unknown",
+      "legacy_aliases": []
+    }
+  ]
+}
