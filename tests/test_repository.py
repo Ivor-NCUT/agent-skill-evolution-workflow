@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import subprocess
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -29,6 +31,25 @@ class RepositoryTest(unittest.TestCase):
             if item["role"] == "旧入口":
                 self.assertEqual(item["legacy_compatibility"]["status"], "preserved")
         self.assertEqual(len(registry["skills"]), len({item["machine_name"] for item in registry["skills"]}))
+
+    def test_inventory_preserves_curated_metadata(self) -> None:
+        source = json.loads((ROOT / "company-skills.json").read_text(encoding="utf-8"))
+        item = next(x for x in source["skills"] if x["machine_name"] == "job-resume-intelligent-matching-fanhan")
+        self.assertEqual(item["install_version"], "2.1.0")
+        with tempfile.TemporaryDirectory() as temp:
+            output = Path(temp) / "company-skills.json"
+            output.write_text(json.dumps({"skills": [item]}, ensure_ascii=False), encoding="utf-8")
+            subprocess.run(
+                ["python3", str(ROOT / "tools" / "build_inventory.py"), "--output", str(output)],
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            rebuilt = json.loads(output.read_text(encoding="utf-8"))
+            preserved = next(
+                x for x in rebuilt["skills"] if x["machine_name"] == "job-resume-intelligent-matching-fanhan"
+            )
+            self.assertEqual(preserved["install_version"], "2.1.0")
 
 
 if __name__ == "__main__":
