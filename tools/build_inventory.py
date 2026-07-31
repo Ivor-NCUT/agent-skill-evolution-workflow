@@ -63,6 +63,10 @@ def main() -> int:
     parser.add_argument("--cloud-list", type=Path)
     parser.add_argument("--output", type=Path, default=Path(__file__).parents[1] / "company-skills.json")
     args = parser.parse_args()
+    previous: dict[str, dict] = {}
+    if args.output.exists():
+        payload = json.loads(args.output.read_text(encoding="utf-8"))
+        previous = {item["machine_name"]: item for item in payload.get("skills", [])}
     discovered: dict[str, dict] = {}
     workspace = Path(__file__).parents[2]
     roots = [
@@ -87,14 +91,15 @@ def main() -> int:
         department, role = classify(name)
         spec = DEPARTMENTS.get(department)
         managed = role in {"部门入口", "部门专家"}
+        existing = previous.get(name, {})
         skills.append({
             "machine_name": name,
             "source": {"local_paths": sorted(set(found["local_paths"])), "cloud_installed": found["cloud"]},
             "department": department,
             "role": role,
-            "github_repository": spec["repo"] if managed and spec else None,
-            "install_version": "1.0.0" if managed and spec else None,
-            "license": "MIT" if managed and spec else "unknown",
+            "github_repository": spec["repo"] if managed and spec else existing.get("github_repository"),
+            "install_version": "1.0.0" if managed and spec else existing.get("install_version"),
+            "license": "MIT" if managed and spec else existing.get("license", "unknown"),
             "legacy_compatibility": (
                 {"status": "preserved", "department_entry": spec["entry"]}
                 if role == "旧入口" and spec else None
