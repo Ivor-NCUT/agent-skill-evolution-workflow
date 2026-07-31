@@ -31,6 +31,9 @@ class RepositoryTest(unittest.TestCase):
             if item["role"] == "旧入口":
                 self.assertEqual(item["legacy_compatibility"]["status"], "preserved")
         self.assertEqual(len(registry["skills"]), len({item["machine_name"] for item in registry["skills"]}))
+        versions = {item["machine_name"]: item["install_version"] for item in registry["skills"]}
+        self.assertEqual(versions["full-stack-development-workflow"], "2.0.0")
+        self.assertEqual(versions["social-media-creator-workflow"], "1.2.0")
 
     def test_inventory_preserves_curated_metadata(self) -> None:
         source = json.loads((ROOT / "company-skills.json").read_text(encoding="utf-8"))
