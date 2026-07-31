@@ -1459,36 +1459,6 @@
       "legacy_compatibility": null
     },
     {
-      "machine_name": "full-stack-debugging",
-      "source": {
-        "local_paths": [
-          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-debugging"
-        ],
-        "cloud_installed": true
-      },
-      "department": "full-stack-development",
-      "role": "部门专家",
-      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
-      "install_version": "1.0.0",
-      "license": "MIT",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "full-stack-deployment",
-      "source": {
-        "local_paths": [
-          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-deployment"
-        ],
-        "cloud_installed": true
-      },
-      "department": "full-stack-development",
-      "role": "部门专家",
-      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
-      "install_version": "1.0.0",
-      "license": "MIT",
-      "legacy_compatibility": null
-    },
-    {
       "machine_name": "full-stack-development-workflow",
       "source": {
         "local_paths": [
@@ -1498,51 +1468,6 @@
       },
       "department": "full-stack-development",
       "role": "部门入口",
-      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
-      "install_version": "1.0.0",
-      "license": "MIT",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "full-stack-implementation",
-      "source": {
-        "local_paths": [
-          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-implementation"
-        ],
-        "cloud_installed": true
-      },
-      "department": "full-stack-development",
-      "role": "部门专家",
-      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
-      "install_version": "1.0.0",
-      "license": "MIT",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "full-stack-quality-review",
-      "source": {
-        "local_paths": [
-          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-quality-review"
-        ],
-        "cloud_installed": true
-      },
-      "department": "full-stack-development",
-      "role": "部门专家",
-      "github_repository": "Ivor-NCUT/full-stack-development-workflow",
-      "install_version": "1.0.0",
-      "license": "MIT",
-      "legacy_compatibility": null
-    },
-    {
-      "machine_name": "full-stack-requirements",
-      "source": {
-        "local_paths": [
-          "/Users/fanhan/Documents/Codex/Agent Skill/full-stack-development-workflow/skills/full-stack-requirements"
-        ],
-        "cloud_installed": true
-      },
-      "department": "full-stack-development",
-      "role": "部门专家",
       "github_repository": "Ivor-NCUT/full-stack-development-workflow",
       "install_version": "1.0.0",
       "license": "MIT",
