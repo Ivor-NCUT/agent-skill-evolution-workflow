@@ -2674,7 +2674,7 @@
       "department": "social-media-operations",
       "role": "部门入口",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2689,7 +2689,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2704,7 +2704,22 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
+      "license": "MIT",
+      "legacy_compatibility": null
+    },
+    {
+      "machine_name": "social-media-creator-workflow-community-manager",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-community-manager"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "部门专家",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2719,7 +2734,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2734,7 +2749,22 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
+      "license": "MIT",
+      "legacy_compatibility": null
+    },
+    {
+      "machine_name": "social-media-creator-workflow-conversion-path",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/Documents/Codex/Agent Skill/social-media-creator-workflow/skills/social-media-creator-workflow-conversion-path"
+        ],
+        "cloud_installed": true
+      },
+      "department": "social-media-operations",
+      "role": "部门专家",
+      "github_repository": "Ivor-NCUT/social-media-creator-workflow",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2749,7 +2779,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2764,7 +2794,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2779,7 +2809,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2794,7 +2824,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2809,7 +2839,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2824,7 +2854,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2839,7 +2869,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2854,7 +2884,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2869,7 +2899,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2884,7 +2914,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2899,7 +2929,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2914,7 +2944,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2929,7 +2959,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2944,7 +2974,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2959,7 +2989,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2974,7 +3004,7 @@
       "department": "social-media-operations",
       "role": "部门专家",
       "github_repository": "Ivor-NCUT/social-media-creator-workflow",
-      "install_version": "1.2.0",
+      "install_version": "1.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
