@@ -10,4 +10,6 @@ node tools/install.mjs
 ```
 
 `company-skills.json` 是四个部门入口、专家、共享工具、外部依赖和旧入口的登记表。
+Skill 发布与云端同步使用一张 `.skill-delivery-receipt.json` 串联本地、GitHub、Zeabur
+和登记表，避免四套状态重复判断。
 Company-level MOE Agent Skill for classification, conflict auditing, creation, evolution, delivery, and upstream contribution.

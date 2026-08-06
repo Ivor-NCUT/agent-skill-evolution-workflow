@@ -34,6 +34,23 @@ class RepositoryTest(unittest.TestCase):
         versions = {item["machine_name"]: item["install_version"] for item in registry["skills"]}
         self.assertEqual(versions["full-stack-development-workflow"], "2.0.0")
         self.assertEqual(versions["social-media-creator-workflow"], "1.3.0")
+        self.assertEqual(versions["agent-skill-evolution-workflow"], "1.1.0")
+        self.assertEqual(versions["skill-evolution-validation-delivery"], "1.1.0")
+        self.assertEqual(versions["course-producer"], "1.1.0")
+        self.assertEqual(versions["course-lark-delivery"], "1.1.0")
+        self.assertEqual(versions["course-quality-editor"], "1.1.0")
+
+    def test_delivery_expert_uses_one_four_stage_receipt(self) -> None:
+        text = (ROOT / "skills" / "skill-evolution-validation-delivery" / "SKILL.md").read_text(encoding="utf-8")
+        for expected in (
+            ".skill-delivery-receipt.json",
+            "## 1. 本地候选",
+            "## 2. GitHub 基线",
+            "## 3. Zeabur 原子同步",
+            "## 4. 中央登记与收口",
+            "local/github/cloud/registry",
+        ):
+            self.assertIn(expected, text)
 
     def test_inventory_preserves_curated_metadata(self) -> None:
         source = json.loads((ROOT / "company-skills.json").read_text(encoding="utf-8"))
