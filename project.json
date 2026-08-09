@@ -1,7 +1,7 @@
 {
   "project_name": "agent-skill-evolution-workflow",
   "display_name": "Skill 迭代与进化",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "entry_skill": "agent-skill-evolution-workflow",
   "experts": [

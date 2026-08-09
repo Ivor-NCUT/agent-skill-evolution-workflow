@@ -12,9 +12,12 @@ description: 验证、安装和同步 Agent Skill，并在用户明确要求时�
 
 1. 记录仓库、版本、基线 commit、用户原有未提交改动和本轮目标文件。
 2. 运行每个变更 Skill 的 `quick_validate.py`、仓库 validator、测试和路由用例。
-3. 校验来源、许可证、旧入口和公共路径；安装器只能管理自己的符号链接，真实目录
+3. 修改了 Skill 或 Agent 文档时，读取
+   [Agent 文档设计](../agent-skill-evolution-workflow/references/agent-document-design.md)，
+   检查触发分支、信息层级、可检查完成标准、单一事实源和无效指令。
+4. 校验来源、许可证、旧入口和公共路径；安装器只能管理自己的符号链接，真实目录
    先备份，不静默覆盖。
-4. 在收据写入 `local.commit`、`local.version`、入口 Skill、`project.json` 与制品
+5. 在收据写入 `local.commit`、`local.version`、入口 Skill、`project.json` 与制品
    SHA-256，以及验证命令和结果。任一检查失败就停在本地，不发布。
 
 ## 2. GitHub 基线
