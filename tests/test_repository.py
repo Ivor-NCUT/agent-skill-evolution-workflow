@@ -34,8 +34,8 @@ class RepositoryTest(unittest.TestCase):
         versions = {item["machine_name"]: item["install_version"] for item in registry["skills"]}
         self.assertEqual(versions["full-stack-development-workflow"], "2.0.0")
         self.assertEqual(versions["social-media-creator-workflow"], "1.3.0")
-        self.assertEqual(versions["agent-skill-evolution-workflow"], "1.1.0")
-        self.assertEqual(versions["skill-evolution-validation-delivery"], "1.1.0")
+        self.assertEqual(versions["agent-skill-evolution-workflow"], "1.2.0")
+        self.assertEqual(versions["skill-evolution-validation-delivery"], "1.2.0")
         self.assertEqual(versions["course-producer"], "1.1.0")
         self.assertEqual(versions["course-lark-delivery"], "1.1.0")
         self.assertEqual(versions["course-quality-editor"], "1.1.0")
@@ -51,6 +51,20 @@ class RepositoryTest(unittest.TestCase):
             "local/github/cloud/registry",
         ):
             self.assertIn(expected, text)
+
+    def test_agent_document_guidance_has_one_shared_source(self) -> None:
+        reference = ROOT / "skills" / "agent-skill-evolution-workflow" / "references" / "agent-document-design.md"
+        self.assertTrue(reference.is_file())
+        text = reference.read_text(encoding="utf-8")
+        for expected in ("## 触发指针", "## 信息层级", "## 完成标准", "## 精简审计"):
+            self.assertIn(expected, text)
+        for skill_name in (
+            "skill-evolution-project-builder",
+            "skill-evolution-conflict-auditor",
+            "skill-evolution-validation-delivery",
+        ):
+            skill = (ROOT / "skills" / skill_name / "SKILL.md").read_text(encoding="utf-8")
+            self.assertIn("agent-document-design.md", skill)
 
     def test_inventory_preserves_curated_metadata(self) -> None:
         source = json.loads((ROOT / "company-skills.json").read_text(encoding="utf-8"))
