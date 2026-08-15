@@ -114,6 +114,21 @@
       "legacy_compatibility": null
     },
     {
+      "machine_name": "ai-native-candidate-scoring-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.codex/skills/ai-native-candidate-scoring-fanhan"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "共享工具",
+      "github_repository": "Ivor-NCUT/fanhan-agent-skills",
+      "install_version": "3.1.0",
+      "license": "unknown",
+      "legacy_compatibility": null
+    },
+    {
       "machine_name": "algorithmic-art",
       "source": {
         "local_paths": [
