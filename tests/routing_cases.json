@@ -1,10 +1,49 @@
 [
-  {"prompt":"这个新能力该不该创建 Skill，归到哪个部门？","expected":"skill-evolution-intake-classifier"},
-  {"prompt":"审计这些 Skill 的触发和规则冲突。","expected":"skill-evolution-conflict-auditor"},
-  {"prompt":"把这套方法做成 MOE Skill 仓库。","expected":"skill-evolution-project-builder"},
-  {"prompt":"重写这个 Skill 的描述和参考文档，减少弱触发和重复规则。","expected":"skill-evolution-project-builder"},
-  {"prompt":"我满意了，把反馈更新到原 Skill 并用达尔文验证。","expected":"skill-evolution-darwin-runner"},
-  {"prompt":"验证并同步这个 Skill 到本地和云端。","expected":"skill-evolution-validation-delivery"},
-  {"prompt":"把 Skill 的本地校验、GitHub PR、Zeabur 原子同步和 company-skills 登记收敛成一次可回读交付。","expected":"skill-evolution-validation-delivery"},
-  {"prompt":"检查许可证并给上游提 PR。","expected":"skill-evolution-open-source-upstream"}
+  {
+    "prompt": "这个新能力该不该创建 Skill，归到哪个部门？",
+    "expected": "skill-evolution-intake-classifier"
+  },
+  {
+    "prompt": "审计这些 Skill 的触发和规则冲突。",
+    "expected": "skill-evolution-conflict-auditor"
+  },
+  {
+    "prompt": "把这套方法做成 MOE Skill 仓库。",
+    "expected": "skill-evolution-project-builder"
+  },
+  {
+    "prompt": "重写这个 Skill 的描述和参考文档，减少弱触发和重复规则。",
+    "expected": "skill-evolution-project-builder"
+  },
+  {
+    "prompt": "我满意了，把反馈更新到原 Skill 并用达尔文验证。",
+    "expected": "skill-evolution-darwin-runner"
+  },
+  {
+    "prompt": "验证并同步这个 Skill 到本地和云端。",
+    "expected": "skill-evolution-validation-delivery"
+  },
+  {
+    "prompt": "把 Skill 的本地校验、GitHub PR、Zeabur 原子同步和 company-skills 登记收敛成一次可回读交付。",
+    "expected": "skill-evolution-validation-delivery"
+  },
+  {
+    "prompt": "检查许可证并给上游提 PR。",
+    "expected": "skill-evolution-open-source-upstream"
+  },
+  {
+    "prompt": "参考 Astra 官方指导优化这条确认规则，直接改本地文件，不发布。",
+    "expected": "skill-evolution-conflict-auditor",
+    "behavior": "核实模型指导并完成本地修复与相关验证；不强制 benchmark、GitHub 或云端发布。"
+  },
+  {
+    "prompt": "这个 Skill 只给我可下载 ZIP。",
+    "expected": "skill-evolution-validation-delivery",
+    "behavior": "验证并打包；不创建教程、上传、收据或追问发布目的地。"
+  },
+  {
+    "prompt": "为这次 Skill 改动开 PR，先别合并。",
+    "expected": "skill-evolution-validation-delivery",
+    "behavior": "完成 PR 与相关检查；不得因收据流程自动合并。"
+  }
 ]

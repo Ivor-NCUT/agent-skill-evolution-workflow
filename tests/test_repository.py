@@ -32,13 +32,13 @@ class RepositoryTest(unittest.TestCase):
                 self.assertEqual(item["legacy_compatibility"]["status"], "preserved")
         self.assertEqual(len(registry["skills"]), len({item["machine_name"] for item in registry["skills"]}))
         versions = {item["machine_name"]: item["install_version"] for item in registry["skills"]}
-        self.assertEqual(versions["full-stack-development-workflow"], "2.2.0")
+        self.assertEqual(versions["full-stack-development-workflow"], "2.3.0")
         self.assertEqual(versions["social-media-creator-workflow"], "1.4.0")
         self.assertEqual(versions["agent-skill-evolution-workflow"], "1.2.0")
         self.assertEqual(versions["skill-evolution-validation-delivery"], "1.2.0")
-        self.assertEqual(versions["course-producer"], "1.2.0")
-        self.assertEqual(versions["course-lark-delivery"], "1.2.0")
-        self.assertEqual(versions["course-quality-editor"], "1.2.0")
+        self.assertEqual(versions["course-producer"], "1.3.0")
+        self.assertEqual(versions["course-lark-delivery"], "1.3.0")
+        self.assertEqual(versions["course-quality-editor"], "1.3.0")
 
     def test_delivery_expert_uses_one_four_stage_receipt(self) -> None:
         text = (ROOT / "skills" / "skill-evolution-validation-delivery" / "SKILL.md").read_text(encoding="utf-8")

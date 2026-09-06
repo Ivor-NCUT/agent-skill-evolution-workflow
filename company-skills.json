@@ -114,6 +114,21 @@
       "legacy_compatibility": null
     },
     {
+      "machine_name": "ai-design-import-canva-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/AI 设计导入Canva@泛函"
+        ],
+        "cloud_installed": true
+      },
+      "department": null,
+      "role": "共享工具",
+      "github_repository": null,
+      "install_version": "2.0.0",
+      "license": "unknown",
+      "legacy_compatibility": null
+    },
+    {
       "machine_name": "ai-native-candidate-scoring-fanhan",
       "source": {
         "local_paths": [
@@ -1406,7 +1421,7 @@
       "department": "full-stack-development",
       "role": "部门入口",
       "github_repository": "Ivor-NCUT/full-stack-development-workflow",
-      "install_version": "2.2.0",
+      "install_version": "2.3.0",
       "license": "MIT",
       "legacy_compatibility": null
     },
@@ -2467,6 +2482,21 @@
       "role": "共享工具",
       "github_repository": null,
       "install_version": null,
+      "license": "unknown",
+      "legacy_compatibility": null
+    },
+    {
+      "machine_name": "single-role-recruitment-note-fanhan",
+      "source": {
+        "local_paths": [
+          "/Users/fanhan/.agents/skills/单岗位招聘笔记@泛函"
+        ],
+        "cloud_installed": false
+      },
+      "department": "social-media-operations",
+      "role": "部门专家",
+      "github_repository": null,
+      "install_version": "1.7.0",
       "license": "unknown",
       "legacy_compatibility": null
     },
